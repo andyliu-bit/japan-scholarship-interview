@@ -55,6 +55,17 @@ skill 主体是纯 Markdown、相对路径、无外部依赖、无 OS 特定命�
 | `--mock` | 只跑模拟面试并评分 |
 | `--check` | 只做原稿／幻灯片／问答／申请书的一致性核验 |
 
+## 更新与反馈
+
+**plugin 安装的**：`/plugin update japan-scholarship-interview`。
+更新只在 `.claude-plugin/plugin.json` 的 `version` 变化时才会推送，所以内容没变时不会有更新提示。
+
+**直接 clone 的**：到该目录 `git pull`。
+
+**发现规则有问题**：欢迎开 [issue](https://github.com/andyliu-bit/japan-scholarship-interview/issues)。
+特别欢迎「规则把正确的做法判成了违规」这类反馈——开发过程中这类错误出现过不止一次，
+而且只有真实使用才会暴露（见 `tests/runs/README.md` 的教训一节）。
+
 ## 目录
 
 ```text
