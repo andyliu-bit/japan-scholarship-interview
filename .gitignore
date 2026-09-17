@@ -1,0 +1,11 @@
+# 本仓库只应包含 skill 本体、模板、虚构夹具与运行记录。
+# 真实申请人的材料与产物一律不进来。
+
+interview-prep/
+*.pdf
+*.pptx
+*.docx
+*.xlsx
+
+.DS_Store
+Thumbs.db
