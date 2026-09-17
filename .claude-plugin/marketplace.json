@@ -1,0 +1,13 @@
+{
+  "name": "andyliu-skills",
+  "owner": {
+    "name": "Liu Haozhe"
+  },
+  "plugins": [
+    {
+      "name": "japan-scholarship-interview",
+      "source": ".",
+      "description": "日本の大学院・研究型奨学金の日本語面接準備 skill。事実台帳・研究ナラティブ・5段階想定問答・時間管理・2段階監査。"
+    }
+  ]
+}

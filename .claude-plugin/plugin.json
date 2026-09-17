@@ -1,0 +1,21 @@
+{
+  "name": "japan-scholarship-interview",
+  "displayName": "Japan Scholarship Interview",
+  "description": "日本の大学院（修士・博士）研究型奨学金の日本語面接準備。事実台帳を軸に、発表原稿・想定問答・スライド・申請書の整合を保つ。",
+  "version": "1.0.0",
+  "author": {
+    "name": "Liu Haozhe"
+  },
+  "homepage": "https://github.com/andyliu-bit/japan-scholarship-interview",
+  "repository": "https://github.com/andyliu-bit/japan-scholarship-interview",
+  "license": "MIT",
+  "keywords": [
+    "scholarship",
+    "interview",
+    "japanese",
+    "graduate-school",
+    "japan",
+    "奨学金",
+    "面接"
+  ]
+}

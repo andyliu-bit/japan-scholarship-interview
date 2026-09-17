@@ -32,7 +32,14 @@ Codex：
 git clone https://github.com/andyliu-bit/japan-scholarship-interview.git ~/.agents/skills/japan-scholarship-interview
 ```
 
-也可作为 plugin 的一部分分发（置于 `skills/japan-scholarship-interview/` 下）。
+### 或者作为 plugin 安装
+
+```
+/plugin marketplace add andyliu-bit/japan-scholarship-interview
+/plugin install japan-scholarship-interview@andyliu-skills
+```
+
+本仓库同时是一个 plugin marketplace。根目录的 `SKILL.md` 会被作为单个 skill 加载（仓库没有 `skills/` 目录，这是该布局生效的前提）。
 
 skill 主体是纯 Markdown、相对路径、无外部依赖、无 OS 特定命令，**兼容支持 Agent Skills / `SKILL.md` 约定的运行时**；各运行时额外需要的清单文件（如 Codex 的 `agents/*.yaml`）按需自行添加，本仓库不预置。
 
@@ -61,6 +68,7 @@ references/
 assets/                         可填模板（会被复制进用户产物）
 tests/fixtures/                 虚构人物 ×3（仅测试用，真实任务不得加载）
 tests/runs/                     运行记录 ×7 ＋ 索引
+.claude-plugin/                 plugin 与 marketplace 清单
 ```
 
 产物写入用户工作目录下的 `./interview-prep/`。
